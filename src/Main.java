@@ -32,7 +32,7 @@ public class Main {
         System.out.println("На каждого ученика рассчитано "+x4+" листов бумаги");
 
         System.out.println("Задача 4");
-        byte bottle = 16;
+
 
 
     }
