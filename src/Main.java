@@ -24,6 +24,12 @@ public class Main {
         System.out.println("byte x7 = 67");
 
         System.out.println("Задача 3");
+        byte x1 = 23;
+        byte x2 = 27;
+        byte x3 = 30;
+        short paper = 480;
+        int x4 = paper/(x1 + x2 + x3);
+        System.out.println(x4);
     }
 
 }
