@@ -37,7 +37,8 @@ public class Main {
         short time2 = 1440;
         short time3 = 4320;
         int time4 = 43200;
-        int x1 =
+        int waterTime = (water*time)/2;
+
 
 
 
