@@ -33,11 +33,11 @@ public class Main {
 
         System.out.println("Задача 4");
         byte water = 16;
-        byte time = 20;
+        byte time1 = 20;
         short time2 = 1440;
         short time3 = 4320;
         int time4 = 43200;
-        int waterTime = (water*time)/2;
+        int waterTime = (water*time1)/2;
 
 
 
