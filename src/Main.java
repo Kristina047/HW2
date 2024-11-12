@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Значение переменной K с типом double равно "+k+" ");
 
         System.out.println("Задача 2");
-        System.out.println("float x1 = 27.12F");
+        System.out.println("float x1 = 27.12");
         System.out.println("double x2= 987.678965549");
         System.out.println("float x3 = 2.786f");
         System.out.println("short x4 = 569");
@@ -32,6 +32,12 @@ public class Main {
         System.out.println("На каждого ученика рассчитано "+x4+" листов бумаги");
 
         System.out.println("Задача 4");
+        byte water = 16;
+        byte time = 20;
+        short time2 = 1440;
+        short time3 = 4320;
+        int time4 = 43200;
+        int x1 =
 
 
 
