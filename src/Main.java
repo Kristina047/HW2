@@ -38,6 +38,15 @@ public class Main {
         short time3 = 4320;
         int time4 = 43200;
         int waterTime = (water*time1)/2;
+        System.out.println("За "+time1+" минут машина произвела "+waterTime+" штук бутылок");
+        int waterTime1 = (water*time2)/2;
+        System.out.println("За "+time2+" минут машина произвела "+waterTime1+" штук бутылок");
+        int waterTime2 = (water*time3)/2;
+        System.out.println("За "+time3+" минут машина произвела "+waterTime2+" штук бутылок");
+        int waterTime4 = (water*time4)/2;
+        System.out.println("За "+time4+" минут машина произвела "+waterTime4+" штук бутылок");
+
+
 
 
 
