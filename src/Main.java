@@ -29,7 +29,10 @@ public class Main {
         byte x3 = 30;
         short paper = 480;
         int x4 = paper/(x1 + x2 + x3);
-        System.out.println(x4);
+        System.out.println("На каждого ученика рассчитано "+x4+" листов бумаги");
+
+        System.out.println("Задача 4");
+
     }
 
 }
