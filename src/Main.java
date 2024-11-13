@@ -28,8 +28,8 @@ public class Main {
         byte x2 = 27;
         byte x3 = 30;
         short paper = 480;
-        int x4 = paper/(x1 + x2 + x3);
-        System.out.println("На каждого ученика рассчитано "+x4+" листов бумаги");
+        int result1 = paper/(x1 + x2 + x3);
+        System.out.println("На каждого ученика рассчитано "+result1+" листов бумаги");
 
         System.out.println("Задача 4");
         byte water = 16;
@@ -45,6 +45,17 @@ public class Main {
         System.out.println("За "+time3+" минут машина произвела "+waterTime2+" штук бутылок");
         int waterTime4 = (water*time4)/2;
         System.out.println("За "+time4+" минут машина произвела "+waterTime4+" штук бутылок");
+
+        System.out.println("Задача 5");
+        byte pots = 120;
+        byte potsWhite = 2;
+        byte potsBrown = 4;
+        int result2 = pots / (potsBrown + potsWhite);
+        int potsWhite1 = result2*potsWhite;
+        int potsBrown1 = result2*potsBrown;
+        System.out.println("В школе, где "+result2+" классов, нужно "+potsWhite1+" банок белой краски и "+potsBrown1+" банок коричневой краски");
+
+
 
 
 
