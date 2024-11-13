@@ -62,8 +62,8 @@ public class Main {
         int eggs = 70*4;
         int breakfast = bananas + milk + ice + eggs;
         float breakfastOne = (bananas + milk + ice + eggs) / 1000F;
-        System.out.println(""+breakfast+" грамм");
-        System.out.println(""+breakfastOne+" килограмм");
+        System.out.println(breakfast+" грамм");
+        System.out.println(breakfastOne+" килограмм");
 
 
 
