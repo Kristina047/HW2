@@ -55,6 +55,16 @@ public class Main {
         int potsBrown1 = result2*potsBrown;
         System.out.println("В школе, где "+result2+" классов, нужно "+potsWhite1+" банок белой краски и "+potsBrown1+" банок коричневой краски");
 
+        System.out.println("Задача 6");
+        int bananas = 80*5;
+        int milk = 105+105;
+        int ice = 100+100;
+        int eggs = 70*4;
+        int breakfast = bananas + milk + ice + eggs;
+        float breakfastOne = (bananas + milk + ice + eggs) / 1000F;
+        System.out.println(""+breakfast+" грамм");
+        System.out.println(""+breakfastOne+" килограмм");
+
 
 
 
