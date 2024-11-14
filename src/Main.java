@@ -78,6 +78,21 @@ public class Main {
         int mid = (weight250+weight500)/2;
         System.out.println(mid+" день - среднее количество ");
 
+        System.out.println("Задача 8");
+        int masha = 67760;
+        int den = 83690;
+        int kris = 76230;
+        int masha10 = masha + 6776;
+        int den10 = den + 8369;
+        int kris10 = kris + 7623;
+        int mashaYear = (12*masha10)-(12*masha);
+        System.out.println("Маша теперь получает "+masha10+" рублей. Годовой доход вырос на "+mashaYear+" рублей");
+        int denYear = (12*den10)-(12*den);
+        System.out.println("Денис теперь получает "+den10+" рублей. Годовой доход вырос на "+denYear+" рублей");
+        int krisYear = (12*kris10)-(12*kris);
+        System.out.println("Кристина теперь получает "+kris10+" рублей. Годовой доход вырос на "+krisYear+" рублей");
+
+
 
 
     }
