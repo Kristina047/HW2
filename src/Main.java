@@ -66,9 +66,17 @@ public class Main {
         System.out.println(breakfastOne+" килограмм");
 
 
-
-
-
+        System.out.println("Задача 7");
+        int weight = 7;
+        weight = 7*1000;
+        int day250 = 250;
+        int weight250 = weight / day250;
+        System.out.println(weight250+" дней ");
+        int day500 = 500;
+        int weight500 = weight/ day500;
+        System.out.println(weight500+" дней ");
+        int mid = (weight250+weight500)/2;
+        System.out.println(mid+" день - среднее количество ");
 
 
 
